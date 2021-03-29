@@ -37,6 +37,11 @@ nav a:hover {
   color: white;
 }
 
+@media only screen and (max-width: 1060px) {
+  nav a {
+    padding-left: 10px;
+  }
+}
 footer {
   height: 100px;
   width: 100%;
@@ -115,6 +120,11 @@ footer .socials .twitter {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 1060px) {
+  .register {
+    padding: 20px;
+  }
+}
 .login {
   max-width: 600px;
   margin: 0 auto;
@@ -160,6 +170,11 @@ footer .socials .twitter {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 1060px) {
+  .login {
+    padding: 20px;
+  }
+}
 .contact {
   max-width: 600px;
   margin: 0 auto;
@@ -212,6 +227,11 @@ footer .socials .twitter {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 1060px) {
+  .contact {
+    padding: 20px;
+  }
+}
 .hero {
   max-width: 1700px;
   height: 700px;
@@ -334,7 +354,7 @@ footer .socials .twitter {
   padding-top: 10px;
   font-size: 18px;
   color: black;
-  width: 900px;
+  max-width: 900px;
 }
 .bottom-section .foodPics {
   display: flex;
@@ -385,6 +405,25 @@ footer .socials .twitter {
   background-size: cover;
 }
 
+@media only screen and (max-width: 1060px) {
+  .hero {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .hero .homeTxt .heroBtn {
+    margin: 0 auto;
+    margin-left: 150px;
+  }
+
+  .bottom-section .blogPost {
+    flex-direction: column;
+  }
+
+  .foodPics {
+    flex-direction: column;
+    padding-left: 90px;
+  }
+}
 .recipes {
   width: 1200px;
   margin: 0 auto;
@@ -482,6 +521,48 @@ footer .socials .twitter {
   text-align: center;
 }
 
+@media only screen and (max-width: 1060px) {
+  .recipes h1 {
+    margin-right: 720px;
+  }
+  .recipes h2 {
+    margin-right: 720px;
+  }
+  .recipes .recipesBox {
+    flex-direction: column;
+    margin-right: 720px;
+  }
+  .recipes .recipesBox .recipePic {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic2 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic3 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic4 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic5 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic6 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic7 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic8 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic9 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox p {
+    margin: 0 auto;
+  }
+}
 .about h1 {
   font-family: "Amatic SC", cursive;
   color: #ec4747;
@@ -499,7 +580,7 @@ footer .socials .twitter {
 }
 .about .top-content {
   display: flex;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   justify-content: space-around;
   padding-top: 20px;
@@ -536,4 +617,29 @@ footer .socials .twitter {
   background-image: url(../images/iupui.png);
   background-position: center;
   background-size: cover;
+}
+
+@media only screen and (max-width: 1060px) {
+  .about {
+    padding: 20px;
+  }
+  .about .top-content {
+    flex-direction: column;
+  }
+  .about .top-content .whyimg {
+    margin: 0 auto;
+  }
+  .about .top-content .whyimg2 {
+    margin: 0 auto;
+  }
+  .about .top-content .whoimg {
+    margin: 0 auto;
+  }
+  .about .top-content .whoimg2 {
+    margin: 0 auto;
+  }
+  .about .top-content .whyText {
+    margin: 0 auto;
+    width: 400px;
+  }
 }

@@ -21,7 +21,7 @@
 
     .top-content {
         display: flex;
-        width: 900px;
+        max-width: 900px;
         margin: 0 auto;
         justify-content: space-around;
         padding-top: 20px;
@@ -73,4 +73,34 @@
     }
 
  
+}
+
+@media only screen and (max-width: 1060px) {
+  .about {
+      padding: 20px;
+    .top-content {
+        flex-direction: column;
+
+        .whyimg {
+            margin: 0 auto;
+        }
+
+        .whyimg2 {
+            margin: 0 auto;
+        }
+
+        .whoimg {
+            margin: 0 auto;
+        }
+
+        .whoimg2 {
+            margin:  0 auto;
+        }
+
+        .whyText {
+            margin: 0 auto;
+            width: 400px;
+        }
+    }
+  }
 }

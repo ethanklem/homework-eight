@@ -113,3 +113,65 @@
         }
     }
 }
+
+@media only screen and (max-width: 1060px) {
+    .recipes {
+        
+        h1 {
+            margin-right: 720px;
+        }
+
+        h2 {
+            margin-right: 720px;
+        }
+
+        .recipesBox {
+            flex-direction: column;
+            margin-right: 720px;
+
+            
+        .recipePic {
+           
+            margin: 0 auto;
+        }
+
+        .recipePic2 {
+            margin: 0 auto;
+        }
+
+        .recipePic3 {
+            margin: 0 auto;
+        }
+
+        .recipePic4 {
+            margin: 0 auto;
+        }
+
+        .recipePic5 {
+            margin: 0 auto;
+        }
+
+        .recipePic6 {
+            margin: 0 auto;
+        }
+
+        
+        .recipePic7 {
+            margin: 0 auto;
+        }
+
+        .recipePic8 {
+            margin: 0 auto;
+        }
+
+        .recipePic9 {
+            margin: 0 auto;
+        }
+
+        p {
+            
+            margin: 0 auto;
+         }
+        }
+    }
+}

@@ -71,7 +71,7 @@
         .blogPost {
                 display: flex;
                 padding-bottom: 50px;
-                
+               
 
                 .date {
                         width: 60px;
@@ -151,7 +151,7 @@
                                 padding-top: 10px;
                                 font-size: 18px;
                                 color: black;
-                                width: 900px;
+                                max-width: 900px;
                         }
                 }
               
@@ -214,4 +214,35 @@
                 }
         }
         
+}
+
+@media only screen and (max-width: 1060px) {
+    .hero {
+            padding:10px;
+            margin-top: 20px;
+
+            .homeTxt {
+
+                .heroBtn {
+                      margin: 0 auto;
+                      margin-left: 150px;
+                }
+            }
+
+            
+    }
+
+    .bottom-section {
+
+        .blogPost {
+                flex-direction: column;
+
+        }
+    }
+
+        .foodPics {
+                flex-direction: column;
+                padding-left: 90px;
+                
+        }
 }
